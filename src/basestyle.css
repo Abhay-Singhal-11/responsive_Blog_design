@@ -1,0 +1,106 @@
+*{
+     margin: 0;
+    padding: 0;
+   
+    
+}
+html{
+    font-size: 14px;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+#nav-bar-text{
+    margin-top: 8px;
+    color: #FFFFFF;
+    font-family: "Inter", sans-serif;
+    font-size: 2rem;
+    font-weight: 800;
+    
+
+}
+
+.hero-section {
+        margin-top: 0;
+        padding: 16px;
+        background-image: url('../src/images/1.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        /* height: 400px; Requires a height or content to be visible */
+        color: white; /* Ensures text is readable over the image */
+        width: 100%;
+        
+        
+        
+        }
+.hero-text{
+    font-family: "Inter", sans-serif;
+    margin-top:80px;
+    margin-bottom: 120px;
+    display:flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+.hero-text-main{
+    font-family: "Libre Caslon Display", sans-serif;
+    font-size: 3.5rem;
+    font-weight:900;
+}
+
+.hero-sub-text{
+    font-family: "Inter", sans-serif;
+    font-size: 1.5rem;
+    margin: 16px 0;
+}
+#hero-button{
+    width: 100%;
+    
+}
+#button{
+    font-family: "Inter", sans-serif;
+    font-size: 1.25rem;
+    font-weight: 400;
+    display: block;
+    color: #FFFFFF;
+    background-color: transparent;
+    border-radius: 8px;
+    text-align: center;
+    width: 120px;
+    height: 40px;
+    border-color: #FFFFFF;
+    border: solid;
+    /* margin-top: 20px; */
+    
+
+}
+
+.sub-section{
+    font-family: "Inter", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: black;
+    margin: 40px 30px;
+    
+    
+    
+}
+
+.blog-card{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 200px;
+    margin: 10px 20px;
+}
+
+.blog-card-image{
+    object-fit: cover;
+}
