@@ -22,7 +22,7 @@ body {
     padding: 24px 5%;
     margin: 0;
 
-    background-image: url('../src/images/1.svg');
+    background-image: url('images/1.svg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
